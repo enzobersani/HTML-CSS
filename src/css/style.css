@@ -1,0 +1,315 @@
+body {
+  border-top: 5px red solid;
+}
+
+#topo {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 1px #666 solid;
+}
+
+#topo .nav {
+  border-top: 1px #EEE solid;
+  margin-top: 20px;
+}
+
+#topo .nav ul {
+  margin: 0 auto;
+}
+
+#topo .nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#topo .nav ul li a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#conteudo {
+  background-color: white;
+}
+
+#conteudo .banner {
+  padding: 5px;
+  background-color: white;
+}
+
+#conteudo .banner img {
+  width: 100%;
+}
+
+#conteudo .red {
+  background-color: red;
+}
+
+#conteudo .red h1 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+#conteudo .red p {
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+}
+
+#conteudo .service {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#conteudo .service h2 {
+  font-size: 20px;
+  color: #666;
+}
+
+#conteudo .service p {
+  font-size: 12px;
+  color: #888;
+}
+
+#conteudo .service .line {
+  width: 100%;
+  height: 5px;
+  background-color: red;
+  margin: auto;
+}
+
+#conteudo .box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#conteudo .box .icone {
+  width: 110px;
+  height: 110px;
+  border: 1px #D3D3D3 solid;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 37px;
+  float: left;
+  margin-right: 10px;
+}
+
+#conteudo .box .icone svg {
+  width: 35px;
+  height: 35px;
+  color: #f00;
+}
+
+#conteudo .box h3 {
+  font-size: 22px;
+}
+
+#conteudo .box p {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#conteudo .resumo {
+  background-color: #EEE;
+}
+
+#conteudo .resumo div:first-child {
+  padding: 20px;
+}
+
+#conteudo .resumo h4 {
+  font-size: 20px;
+  color: #111;
+}
+
+#conteudo .resumo .subTitle {
+  font-weight: 600;
+  color: #666;
+  font-style: italic;
+}
+
+#conteudo .resumo .text {
+  font-size: 14px;
+  color: #666;
+}
+
+#conteudo .resumo img {
+  width: 100%;
+}
+
+#conteudo .lancamento {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#conteudo .lancamento h3 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+#conteudo .lancamento .scroll {
+  height: 475px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+#conteudo .lancamento ul {
+  display: block;
+  padding: 0;
+}
+
+#conteudo .lancamento ul li {
+  display: block;
+  width: 100%;
+  border: 1px #EEE solid;
+  padding: 5px;
+}
+
+#conteudo .lancamento ul li img {
+  float: left;
+  width: 25%;
+}
+
+#conteudo .lancamento ul li .conteudo {
+  padding-left: 10px;
+  width: 75%;
+  float: left;
+}
+
+#conteudo .lancamento ul li .conteudo h4 {
+  font-size: 17px;
+}
+
+#conteudo .lancamento ul li .conteudo p {
+  font-size: 12px;
+}
+
+#conteudo .lancamento ul li .cls {
+  clear: both;
+}
+
+.lancamentoDireita {
+  border: 1px #EEE solid;
+  background-color: #EEE;
+  padding: 5px;
+}
+
+.lancamentoDireita img {
+  width: 100%;
+}
+
+.lancamentoDireita h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #111;
+}
+
+.dataLancamento h3 {
+  background-color: #1C1C1C;
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.dataLancamento h6 {
+  text-align: center;
+}
+
+.dataLancamento .pMargemEsquerda {
+  margin-left: 5px;
+}
+
+.dataLancamento h5 {
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.dataLancamento .bordaBaixo {
+  border-bottom: 1px #EEE solid;
+  margin-bottom: 5px;
+}
+
+.dataLancamento .bordaBaixoAlinhado {
+  border-bottom: 1px #EEE solid;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.dataLancamento .bordaBaixoAlinhadoDireita {
+  border-bottom: 1px #EEE solid;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#rodapeSocial {
+  background-color: black;
+  padding: 8px;
+}
+
+#rodapeSocial .nav {
+  margin: 2px;
+}
+
+#rodapeSocial .nav ul {
+  margin: 0 auto;
+}
+
+#rodapeSocial .nav ul li {
+  display: inline-block;
+  padding: 2px;
+}
+
+#rodapeSocial .nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+}
+
+#rodapeSocial .icone {
+  background-color: #1C1C1C;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#rodapeRed {
+  background-color: red;
+  width: 100%;
+  display: inline-block;
+}
+
+#rodapeRed p {
+  color: white;
+  text-transform: none;
+}
+
+#rodapeRed ul {
+  padding: 0px;
+}
+
+#rodapeRed h3 {
+  margin-top: 15px;
+  margin-bottom: 10;
+  color: white;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodapeRed a p {
+  font-size: 14px;
+}
+
+#desenvolvedor {
+  background-color: white;
+  color: #666;
+  text-align: center;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
